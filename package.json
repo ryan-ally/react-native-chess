@@ -4,18 +4,20 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "chess.js": "github:jhlywa/chess.js",
-    "react": "15.4.1",
+    "react": "15.7.0",
     "react-native": "0.63.0",
     "react-native-modalbox": "1.3.9",
     "react-native-segmented-control-tab": "^3.0.2",
-    "react-native-share": "^1.0.20",
-    "react-native-sound": "0.11.0",
+
+
     "react-native-vector-icons": "^4.1.1",
-    "react-navigation": "^1.0.0-beta.9"
+
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
@@ -25,5 +27,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "snyk": true
 }
