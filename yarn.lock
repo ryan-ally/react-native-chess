@@ -6287,9 +6287,10 @@ react-native-segmented-control-tab@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/react-native-segmented-control-tab/-/react-native-segmented-control-tab-3.0.2.tgz#e60b5c26919c6bfe51429197f665a6778bb5659d"
 
-react-native-share@^1.0.20:
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/react-native-share/-/react-native-share-1.0.20.tgz#38ba820a4ddfc5afe1dec0e1456ced11f14352bc"
+react-native-share@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-share/-/react-native-share-1.2.1.tgz#3756a3cf383c1489a6a0edf2b529ec025ee8f8f7"
+  integrity sha512-V9q1FM+LuYJ65qN3k6BLWs17mIbJCzGyMOhF3rb4MIQXdJfCUbtkDX9aaV86PzcsL1EudCA53HVTJBmWPDed0Q==
 
 react-native-sound@0.9.0:
   version "0.9.0"
